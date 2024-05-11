@@ -9094,8 +9094,7 @@ a.button {
 }
 @media only screen and (max-width: 768px) {
   .int_dark_bg a.button.border {
-      background: red;
-      display: none;
+    width: 100px;
     }
 }
 
@@ -22371,7 +22370,6 @@ form label.error {
 /*------ 69. PRELOADER ------*/
 /*-----------------------------------*/
 #preloader {
-  /* background: #FFF; */
   background: #282d32;
   bottom: 0;
   left: 0;
@@ -22383,7 +22381,6 @@ form label.error {
 
 #status,
 .status-mes {
-  /* background-image: url(../images/preloader.gif); */
   background-image: url('../logo.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -25009,4 +25006,18 @@ section.ui-element {
 }
 text{
   color: #000;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .hover-sub-menu-title{
+    font-size: 12px;
+  }
+  .description_under_image{
+    font-size: 10px;
+  }
+  .hover-menu .hover-menu-listing .hover-menu-title{
+    padding-left: 0;
+    font-size: 15px;
+  }
 }
