@@ -24882,6 +24882,8 @@ section.ui-element {
 
 .map-index {
   width: 100%;
+  overflow: hidden;
+  height: 700px;
 }
 
 .context-hero>.map-index>svg {
@@ -24890,6 +24892,7 @@ section.ui-element {
 
 .map-index>svg path {
   fill: #705b43;
+  cursor: pointer;
 }
 
 .map-index>svg path:hover {
@@ -25007,6 +25010,11 @@ section.ui-element {
 text{
   color: #000;
 }
+.SVG_OPTIMIZE{
+  padding-left: 100px;
+  padding-top: 50px;
+  width: 150%;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -25020,4 +25028,10 @@ text{
     padding-left: 0;
     font-size: 15px;
   }
+    .SVG_OPTIMIZE {
+      padding-left: 30px;
+      padding-top: 100px;
+      width: 200%;
+      margin-bottom: -500px;
+    }
 }

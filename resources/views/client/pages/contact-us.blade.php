@@ -375,7 +375,6 @@
         <script src="/Client/js/map-single.js"></script>
         <script src="/Client/js/color-switcher.js"></script>
         <script src="/Client/js/inner.js"></script>
-
     </div>
     <!-- Wrapper / End -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
